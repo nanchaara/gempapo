@@ -16,7 +16,6 @@ from streamlit_js_eval import get_geolocation
 from geopy.geocoders import Nominatim
 
 # BERITA
-from newsapi import NewsApiClient
 import datetime as DT
 from PIL import Image
 
