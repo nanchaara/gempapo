@@ -153,7 +153,6 @@ if selected == 'Deteksi Gempa':
 elif selected == 'Berita Gempa':
     st.markdown(f'### Berita tentang Gempa yang Terjadi di Indonesia')
     st.markdown(f'##### (dalam 7 hari terakhir)')
-    api = NewsApiClient(api_key='a195b2e8bcb94e0b9a5fe903139dab08')
 
     today = DT.date.today()
     week_ago = today - DT.timedelta(days=7)
